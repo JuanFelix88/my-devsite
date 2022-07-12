@@ -34,17 +34,20 @@ import Tree from '@/components/Tree';
 import SingleTree from '@/components/SingleTree';
 import AvatarImage from '@/../assets/i.png';
 import { IoLogoGithub, IoLogoInstagram, IoLogoMedium } from 'react-icons/io5';
+
+const contactLink = `http://web.whatsapp.com/send?phone=5541996936329`;
+
 const Home: React.FC = () => {
   return (
     <Container>
       <Head>
-        <title>Prazer, sou Juan Andrade!</title>
+        <title>Conheça minha página pessoal Juan Andrade!</title>
       </Head>
       <Header>
         <CallToPressButtonText>Fale Comigo!</CallToPressButtonText>
         <ButtonContact
           title="Fale comigo através de um contato simples e rápido"
-          href="/contato"
+          href={contactLink}
         >
           Contato de Juan
         </ButtonContact>
@@ -104,7 +107,7 @@ const Home: React.FC = () => {
             <span>Electron.js</span>
           </TechnologyItem>
           <TechnologyItem>
-            <span>PostgresQL</span>
+            <span>PostgreSQL</span>
           </TechnologyItem>
           <TechnologyItem>
             <span>Sass</span>
@@ -125,7 +128,7 @@ const Home: React.FC = () => {
         <SingleTree />
         <InterestsItems>
           <InterestItem>
-            <span>Node.js Native Addons</span>
+            <span>Native Addons - Node.js</span>
           </InterestItem>
           <InterestItem>
             <span>Rust</span>
@@ -136,9 +139,9 @@ const Home: React.FC = () => {
           <InterestItem>
             <span>Remix.js</span>
           </InterestItem>
-          <InterestItem>
+          {/* <InterestItem>
             <span>C#</span>
-          </InterestItem>
+          </InterestItem> */}
           <InterestItem>
             <span>Micro Frontends</span>
           </InterestItem>
@@ -175,7 +178,7 @@ const Home: React.FC = () => {
             <CallToPressButtonText>Fale Comigo!</CallToPressButtonText>
             <ButtonContact
               title="Fale comigo através de um contato simples e rápido"
-              href="/contato"
+              href={contactLink}
             >
               Contato de Juan
             </ButtonContact>
