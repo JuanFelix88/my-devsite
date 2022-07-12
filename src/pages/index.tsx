@@ -107,6 +107,15 @@ const Home: React.FC = () => {
             <span>Electron.js</span>
           </TechnologyItem>
           <TechnologyItem>
+            <span>Docker</span>
+          </TechnologyItem>
+          <TechnologyItem>
+            <span>PM2</span>
+          </TechnologyItem>
+          <TechnologyItem>
+            <span>Windows WSL</span>
+          </TechnologyItem>
+          <TechnologyItem>
             <span>PostgreSQL</span>
           </TechnologyItem>
           <TechnologyItem>
@@ -149,10 +158,19 @@ const Home: React.FC = () => {
             <span>Kafka</span>
           </InterestItem>
           <InterestItem>
-            <span>Redis (filas)</span>
+            <span>AWS</span>
           </InterestItem>
           <InterestItem>
-            <span>AWS</span>
+            <span>Clean Architecture</span>
+          </InterestItem>
+          <InterestItem>
+            <span>TDD</span>
+          </InterestItem>
+          <InterestItem>
+            <span>PWA</span>
+          </InterestItem>
+          <InterestItem>
+            <span>Serverless</span>
           </InterestItem>
           <InterestItem>
             <span>OKRs</span>
