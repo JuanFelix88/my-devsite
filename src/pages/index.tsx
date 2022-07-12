@@ -41,7 +41,7 @@ const Home: React.FC = () => {
   return (
     <Container>
       <Head>
-        <title>Conheça minha página pessoal Juan Andrade!</title>
+        <title>Juan Andrade - Conheça minha página pessoal</title>
       </Head>
       <Header>
         <CallToPressButtonText>Fale Comigo!</CallToPressButtonText>
