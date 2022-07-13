@@ -33,7 +33,12 @@ import Head from 'next/head';
 import Tree from '@/components/Tree';
 import SingleTree from '@/components/SingleTree';
 import AvatarImage from '@/../assets/i.png';
-import { IoLogoGithub, IoLogoInstagram, IoLogoMedium } from 'react-icons/io5';
+import {
+  IoLogoGithub,
+  IoLogoInstagram,
+  IoLogoLinkedin,
+  IoLogoMedium,
+} from 'react-icons/io5';
 
 const contactLink = `http://web.whatsapp.com/send?phone=5541996936329`;
 
@@ -218,16 +223,22 @@ const Home: React.FC = () => {
             </SocialNetwork>
 
             <SocialNetwork
-              href="https://instagram.com"
+              href="https://instagram.com/mattefelixoff"
               title="Me encontre no Instagram!"
             >
               <IoLogoInstagram />
             </SocialNetwork>
             <SocialNetwork
-              href="https://medium.com"
+              href="https://medium.com/@juanfelix88"
               title="Leia alguns artigos meus."
             >
               <IoLogoMedium />
+            </SocialNetwork>
+            <SocialNetwork
+              href="https://www.linkedin.com/in/juan-felix-425008163"
+              title="Veja o meu LinkedIn!"
+            >
+              <IoLogoLinkedin />
             </SocialNetwork>
           </SocialNetworksLinks>
         </SocialsContainer>
