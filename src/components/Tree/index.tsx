@@ -90,6 +90,12 @@ const Tree: React.FC = () => {
                 Chalé Café WebApp
               </a>
             </Item>
+            <Item>
+              <a href="https://gifts-list.vercel.app/">
+                <IoCloudSharp size={18} />
+                Gifts List
+              </a>
+            </Item>
           </Items>
         </Box>
       </ContainerBoxes>
