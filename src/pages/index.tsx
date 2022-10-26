@@ -40,7 +40,7 @@ import {
   IoLogoMedium,
 } from 'react-icons/io5';
 
-const contactLink = `http://web.whatsapp.com/send?phone=5541996936329`;
+const contactLink = `https://api.whatsapp.com/send?phone=5541996936329`;
 
 const Home: React.FC = () => {
   return (
