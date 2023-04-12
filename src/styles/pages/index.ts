@@ -46,7 +46,7 @@ export const PublicSection = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 30px 10px;
+  padding: 30px px;
 
   & > h1 {
     font-size: 36pt;

@@ -27,6 +27,11 @@ const Tree: React.FC = () => {
       <ContainerBoxes>
         <Box>
           <Items>
+            <Item title="Projeto open-source mantido por mim com o objetivo de mapear as rodovias brasileiras">
+              <a href="https://github.com/JuanFelix88/brazilian-highways-api">
+                <IoLogoGithub size={18} /> brazilian-highways-api
+              </a>
+            </Item>
             <Item>
               <a href="https://github.com/JuanFelix88/pizza-bot-wpp">
                 <IoLogoGithub size={18} /> pizza-bot-wpp
@@ -56,6 +61,33 @@ const Tree: React.FC = () => {
           <Items>
             <Item>
               <a
+                href="https://brazilian-highways-api.vercel.app/"
+                title="Documentação da api pública"
+              >
+                <IoCloudSharp size={18} />
+                Brazilian Highways API
+              </a>
+            </Item>
+            <Item>
+              <a
+                href="https://website.chalecafe.com.br"
+                title="Página principal da aplicação Chalé Café"
+              >
+                <IoCloudSharp size={18} />
+                Chalé Café
+              </a>
+            </Item>
+            <Item>
+              <a
+                href="https://chalecafe.com.br"
+                title="Aplicação Web com mais de 100 usuários"
+              >
+                <IoCloudSharp size={18} />
+                Chalé Café WebApp
+              </a>
+            </Item>
+            <Item>
+              <a
                 href="https://lacosmo.vercel.app"
                 title="Website institucional da empresa Lacosmo"
               >
@@ -70,24 +102,6 @@ const Tree: React.FC = () => {
               >
                 <IoCloudSharp size={18} />
                 HSA Website
-              </a>
-            </Item>
-            <Item>
-              <a
-                href="https://dashboard.chalecafe.com.br"
-                title="Aplicação Web para gerenciamento de uma cantina escolar"
-              >
-                <IoCloudSharp size={18} />
-                Chalé Café Dashboard
-              </a>
-            </Item>
-            <Item>
-              <a
-                href="https://chalecafe.com.br"
-                title="Aplicação Web com mais de 100 usuários"
-              >
-                <IoCloudSharp size={18} />
-                Chalé Café WebApp
               </a>
             </Item>
             <Item>

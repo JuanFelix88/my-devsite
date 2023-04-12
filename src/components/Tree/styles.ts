@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const CONTAINER_STRIP_WIDTH = `320px`;
+const CONTAINER_STRIP_WIDTH = `380px`;
 const MOBILE_BREAKPOINT = `450px`;
 
 export const Container = styled.div`
@@ -55,7 +55,7 @@ export const Box = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px 5px;
+  padding: 15px 0;
   background-color: ${(p) => p.theme.colors.softWhite};
   border: 1px solid ${(p) => p.theme.colors.softGrey};
   border-radius: 4px;

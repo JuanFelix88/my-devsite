@@ -76,8 +76,8 @@ const Home: React.FC = () => {
         <SingleTree />
         <DescriptionContainer>
           <p>
-            Curitibano de 23 anos, cafézeiro, louco por código e fascinado nas
-            tecnologias Web.
+            Curitibano de {new Date().getFullYear() - 1999} anos, cafézeiro,
+            louco por código e fascinado nas tecnologias Web.
           </p>
           <p>
             Gosto muito de automatizar tarefas, desconstruir e buscar
